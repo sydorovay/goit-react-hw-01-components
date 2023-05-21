@@ -1,6 +1,9 @@
 import React from 'react';
 import Profile from './Profile';
-import user from './json/User.json'
+import user from './json/User.json';
+import Statistics from './Statistics';
+import data from './json/data.json';
+
 
 const App = () => (
   <div>
@@ -11,7 +14,9 @@ const App = () => (
       avatar={user.avatar}
       stats={user.stats}
     />
-  </div>
+
+      <Statistics title="Upload stats" stats={data} />
+    </div>
 );
 
 export default App;
