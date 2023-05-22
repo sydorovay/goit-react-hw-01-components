@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Statistics = ({ title, stats }) => {
   return (
     <section className="statistics">
