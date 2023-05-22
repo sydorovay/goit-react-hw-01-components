@@ -1,5 +1,4 @@
 import React from 'react';
-import  './json/data.json';
 
 const Statistics = ({ title, stats }) => {
   return (
